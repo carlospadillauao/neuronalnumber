@@ -1,0 +1,353 @@
+html{
+    scroll-behavior: smooth;
+    /*overflow-y: hidden;*/
+}
+body{
+    min-width: 1000px;
+    margin: 0px;
+    padding: 0px;    
+    overflow-y: hidden;
+}
+section{
+    min-width: 1000px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;    
+}
+section:nth-child(odd){
+    
+    background: grey;
+}
+section::before{
+    content: "";
+
+}
+.navi{    
+    min-width: 1000px;
+
+    position: fixed;
+    z-index:1;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;   
+    height: 50px; 
+    text-align:center;    
+    background: rgb(84, 110, 196);/* rgb(91, 155, 213); */  
+    text-decoration: none;
+    box-shadow: 1px 1px grey;
+}
+.navi li{
+    padding: 0px 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+}
+.navi a{
+    color: white;
+    text-decoration: none;    
+}
+.navi :hover{
+    background: rgb(155, 177, 250);
+}
+#seccion1{
+    background-image: url(../imagenes/collage2.jpg);
+    background-size: 100%;       
+}
+.dc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    height: 100%;
+    background: rgba(7, 7, 7, 0.616);
+}
+.TITULO_P{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+#seccion2{
+    background: white; 
+    
+    border-bottom:outset;
+    border-width: 1px;
+}
+.textos{
+    /*padding-top: 45px;*/
+    padding-left: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.DINTRO{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.INTRO{
+    width: 700px;
+    text-align: center;
+    /*text-align: justify;*/
+}
+.tex_1{
+
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+}
+.intro1{
+    display: flex;
+}
+.intro2{
+    display: flex;
+}
+#seccion3{ 
+    background: grey;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-bottom:outset;
+    border-width: 1px;
+}
+.dim{
+    display: flex;
+}
+
+.uno_uno{    
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 400px;
+    height: 350px;
+}
+.uno_dos{
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+
+}
+.dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*height: 500px;
+    width: 600px;
+    background: grey;*/
+}
+.coordenado{
+    display: none;
+}
+.function{
+    display: none;
+}
+#Teoria{
+    display: flex;
+    background: white;
+    
+}
+.indexx{
+    padding-top: 50px;
+    background: white;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{    
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    /*overflow: scroll;*/
+    /*overflow-x: hidden;*/
+    scroll-behavior: smooth; 
+}
+.texto_info{
+    padding-top: 50px;
+}
+.d1{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.d22{
+    width: 200px;
+}
+.appa{
+    padding-top: 60px;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    background:  rgb(84, 110, 196);  
+    border-right:solid;
+    border-width: 1px;
+    color: white;
+}
+.appb{    
+    
+    width: 100%;
+    height: 80%;
+    display: flex;    
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.pa{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 70%;
+    height: 100vh;
+    align-items: center;
+}
+.pb{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.pb_1{
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+.pepe{
+    width: 290px;
+    
+}
+#start{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    justify-content: center;
+    align-items: center;    
+}
+#app1{
+    display: flex;
+    background: white;
+}
+#app2{
+    display: flex;
+    background: white;
+}
+.entrenar_b{
+    display: flex;
+    flex-direction: column;
+}
+.ver_graf{
+    padding-top: 20px;
+}
+#entrenar_btton{    
+    opacity: 0.2;
+}
+#graficas_btton{
+    opacity: 0.2;
+}
+#parametros_btton{
+    opacity: 0.2;
+}
+#seccion4{
+    display: flex;
+    background: rgb(84, 110, 196);
+}
+
+.info_1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.info_2{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.refer{
+    text-decoration: none;
+    color: white;
+}
+
+.form-group{
+    width: 300px;
+}
+
+.listanu{
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 200px;
+    height: 90px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    /*box-shadow: 0px 0px 10px black;*/    
+}
+.epocas{
+    margin: 0px;
+}
+#ncapa1{
+    display: none;
+}
+#ncapa2{
+    display: none;
+}
+#ncapa3{
+    display: none;
+}
+#ncapa11{
+    display: none;
+}
+#ncapa22{
+    display: none;
+}
+#ncapa33{
+    display: none;
+}
+#neuronas1{
+    display: none;
+}
+#neuronas2{
+    display: none;
+}
+#neuronas3{
+    display: none;
+}
+.flets{
+    display: flex;
+}
