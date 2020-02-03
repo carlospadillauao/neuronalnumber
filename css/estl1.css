@@ -196,7 +196,10 @@ section::before{
     justify-content: center;
 }
 .d22{
+    padding-top: 50px;
     width: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .appa{
     padding-top: 60px;
